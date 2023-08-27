@@ -1,0 +1,7 @@
+{
+    "editor.cursorStyle": "block",
+    "files.associations": {
+        "ostream": "cpp",
+        "string": "cpp"
+    }
+}
