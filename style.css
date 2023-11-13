@@ -1,0 +1,137 @@
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+    /* overflow: hidden; */
+}
+.container{
+    font-family: monospace;
+}
+.col {
+    border: 2px solid black;
+}
+hr{
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text {
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+  #self{
+    position: relative;
+    top:50px;
+  }
+#self {
+    overflow: hidden; /* Hide overflow to clip text */
+    border-right: 10px solid #000; /* Simulate the typing cursor */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 24px; /* Adjust font size as needed */
+    animation: typing 8s steps(20) infinite; /* 3 seconds duration, 20 steps, infinite loop */
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%; /* Fully reveal the text */
+    }
+  }
+
+.skills{
+    position: relative;
+    top:50px;
+}
+.languages{
+    position: relative;
+    top:50px;
+    /* margin-left: 10px; */
+}
+.frameworks{
+    position: relative;
+    top:50px;
+}
+.sub-topic{
+    background-color: lightblue;
+    margin-right: 8px;
+}
+.databases{
+    position: relative;
+    top:50px;
+}
+.data-science{
+    position: relative;
+    top:50px;
+    margin-top: 10px;
+}
+.achievements{
+  position: relative;
+  top:50px;
+  margin-top: 50px;
+}
+@keyframes achievements-decorator {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 5s ease-in-out;
+}
+.achievements-decorator{
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgba(255, 0, 0, 0.35);
+  padding: 10px;
+  animation: achievements-decorator 0.5s ease-in-out;
+
+}
+#odd{
+  background-color: rgba(255, 0, 0, 0.35);
+  padding: 10px;
+}
+.work{
+  position: relative;
+  top:50px;
+}
+#machine-learning{
+  background-color: rgba(255, 0, 0, 0.35);
+  padding: 10px;
+}
+.explain{
+  position: relative;
+  text-align: center;
+  list-style-position: inside;
+}
+#full-stack{
+  background-color: rgba(255, 0, 0, 0.35);
+  padding: 10px;
+}
+.connect{
+  position: relative;
+  top:50px;
+}
+.projects{
+  position: relative;
+  top:50px;
+}
+.display-block{
+  /* display: block; */
+  border: 2px solid black;
+  border-radius: 3px;
+  width:200px;
+  text-align: center;
+  padding: 10px;
+}
