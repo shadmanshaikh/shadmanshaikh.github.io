@@ -1,5 +1,5 @@
 ---
-title: Who is Dana Carvey?
+title: Who is Sam Altman?
 category: People
 ---
 
